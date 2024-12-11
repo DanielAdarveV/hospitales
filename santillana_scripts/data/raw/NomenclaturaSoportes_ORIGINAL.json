@@ -1,0 +1,34 @@
+{
+    "descarga_inicial":
+        {
+            "ruta":"Z:\\LUCHO\\$mes_atencion$\\$atencion$",
+            "nomenclatura":"$atencion$_$soporte$.pdf",
+            "guardado_armado":{
+                "sura":"$soporte$_$nit_entidad$_FA$numerofactura$.pdf",
+                "nuevaeps":"$soporte$_$nit_entidad$_FA$numerofactura$.pdf",
+                "savia":"$soporte$_$nit_entidad$_FA$numerofactura$.pdf",
+                "salud_total":""}
+        },
+    "factura":
+        {
+            "ruta":"Z:\\LUCHO\\Facturas",
+            "nomenclatura":"FA$numerofactura$.pdf",
+            "guardado_armado":{
+                "sura":"$soporte$_$nit_entidad$_FA$numerofactura$.pdf",
+                "nuevaeps":"$soporte$_$nit_entidad$_FA$numerofactura$.pdf",
+                "savia":"$soporte$_$nit_entidad$_FA$numerofactura$.pdf",
+                "salud_total":""
+            }
+        },
+    "escaneados":
+        {
+            "ruta":"Z:\\MOVIMIENTOS CONSULTA EXTERNA",
+            "nomenclatura":"FA$numerofactura$.pdf",
+            "guardado_armado":{
+                "sura":"$soporte$_$nit_entidad$_FA$numerofactura$.pdf",
+                "nuevaeps":"$soporte$_$nit_entidad$_FA$numerofactura$.pdf",
+                "savia":"$soporte$_$nit_entidad$_FA$numerofactura$.pdf",
+                "salud_total":""
+            }
+        }
+}

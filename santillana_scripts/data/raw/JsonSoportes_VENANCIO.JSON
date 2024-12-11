@@ -1,0 +1,288 @@
+{ 
+  "ST": {
+  "descarga_inicial":{ 
+    "requeridos":["FA","VD"],
+    "opcionales":[]
+  },
+  "ordenes":{
+    "requeridos":["os"],
+    "opcionales":[]
+  },
+  "escaneados": {
+    "requeridos":["SE","VD"],
+    "opcionales":[]},
+  "factura":{
+    "requeridos":["FA"],
+    "opcionales":[]}
+}, 
+  "SF": {
+    "descarga_inicial":{ 
+      "requeridos":["FA","VD"],
+      "opcionales":[]
+    },
+    "ordenes":{
+      "requeridos":["os"],
+      "opcionales":[]
+    },
+    "escaneados": {
+      "requeridos":["SE","VD"],
+      "opcionales":[]},
+    "factura":{
+      "requeridos":["FA"],
+      "opcionales":[]}
+  },  
+  "SC1": {
+    "descarga_inicial":{ 
+      "requeridos":["HA"],
+      "opcionales":[]
+    },
+    "ordenes":{
+      "requeridos":["os"],
+      "opcionales":[]
+    },
+    "escaneados": {
+      "requeridos":["SE","VD"],
+      "opcionales":[]},
+    "factura":{
+      "requeridos":["FA"],
+      "opcionales":[]}
+  },
+  "SO": {
+    "descarga_inicial":{ 
+      "requeridos":["HA"],
+      "opcionales":[]
+    },
+    "ordenes":{
+      "requeridos":["os"],
+      "opcionales":[]
+    },
+    "escaneados": {
+      "requeridos":["SE","VD"],
+      "opcionales":[]},
+    "factura":{
+      "requeridos":["FA"],
+      "opcionales":[]}
+  },    
+  "SC": {
+    "descarga_inicial":{ 
+      "requeridos":["HA"],
+      "opcionales":[]
+    },
+    "ordenes":{
+      "requeridos":["os"],
+      "opcionales":[]
+    },
+    "escaneados": {
+      "requeridos":["SE","VD"],
+      "opcionales":[]},
+    "factura":{
+      "requeridos":["FA"],
+      "opcionales":[]}
+  },
+  "SPE": {
+    "descarga_inicial":{ 
+      "requeridos":["HA"],
+      "opcionales":[]
+    },
+    "ordenes":{
+      "requeridos":["os"],
+      "opcionales":[]
+    },
+    "escaneados": {
+      "requeridos":["SE","VD"],
+      "opcionales":[]},
+    "factura":{
+      "requeridos":["FA"],
+      "opcionales":[]}
+  },
+  "PYP": {
+    "descarga_inicial":{ 
+      "requeridos":["HA"],
+      "opcionales":[]
+    },
+    "ordenes":{
+      "requeridos":["os"],
+      "opcionales":[]
+    },
+    "escaneados": {
+      "requeridos":["SE","VD"],
+      "opcionales":[]},
+    "factura":{
+      "requeridos":["FA"],
+      "opcionales":[]}
+  },
+  "SL": {
+    "descarga_inicial":{ 
+      "requeridos":["SL"],
+      "opcionales":[]
+    },
+    "ordenes":{
+      "requeridos":["os"],
+      "opcionales":[]
+    },
+    "escaneados": {
+      "requeridos":["SE","VD"],
+      "opcionales":[]},
+    "factura":{
+      "requeridos":["FA"],
+      "opcionales":[]}
+  },
+  "SX": {
+    "descarga_inicial":{ 
+      "requeridos":["HA"],
+      "opcionales":[]
+    },
+    "ordenes":{
+      "requeridos":["os"],
+      "opcionales":[]
+    },
+    "escaneados": {
+      "requeridos":["SE","VD"],
+      "opcionales":[]},
+    "factura":{
+      "requeridos":["FA"],
+      "opcionales":[]}
+  },
+  "SD": {
+    "descarga_inicial":{ 
+      "requeridos":[],
+      "opcionales":[]
+    },
+    "ordenes":{
+      "requeridos":["os"],
+      "opcionales":[]
+    },
+    "escaneados": {
+      "requeridos":["SE","VD"],
+      "opcionales":[]},
+    "factura":{
+      "requeridos":["FA"],
+      "opcionales":[]
+    },
+    "soportes_diagnosticos":{
+      "requeridos":["SD"],
+      "opcionales":[]}
+    
+  },
+  "PYV": {
+    "descarga_inicial":{ 
+      "requeridos":["HA"],
+      "opcionales":[]
+    },
+    "ordenes":{
+      "requeridos":["os"],
+      "opcionales":[]
+    },
+    "escaneados": {
+      "requeridos":["SE","VD"],
+      "opcionales":[]},
+    "factura":{
+      "requeridos":["FA"],
+      "opcionales":[]}
+  },
+  "PYL": {
+    "descarga_inicial":{ 
+      "requeridos":["SL"],
+      "opcionales":[]
+    },
+    "ordenes":{
+      "requeridos":["os"],
+      "opcionales":[]
+    },
+    "escaneados": {
+      "requeridos":["SE","VD"],
+      "opcionales":[]},
+    "factura":{
+      "requeridos":["FA"],
+      "opcionales":[]}
+  },
+  "PYO": {
+    "descarga_inicial":{ 
+      "requeridos":["HA"],
+      "opcionales":[]
+    },
+    "ordenes":{
+      "requeridos":["os"],
+      "opcionales":[]
+    },
+    "escaneados": {
+      "requeridos":["SE","VD"],
+      "opcionales":[]},
+    "factura":{
+      "requeridos":["FA"],
+      "opcionales":[]}
+  },
+  "SU": {
+    "descarga_inicial":{ 
+      "requeridos":[],
+      "opcionales":[]
+    },
+    "ordenes":{
+      "requeridos":["os"],
+      "opcionales":[]
+    },
+    "urgencias_fa":{ 
+      "requeridos":["ha","eco","epi","hm","lab","anex","enfermeria","ord","soporte fact","os","prt","prioritaria","verificacion","rx","om","sl","sf","vd","aiu"],
+      "opcionales":["so","ne","SE","VD","gcl","hmc"]
+    }
+    ,
+    "escaneados": {
+      "requeridos":[],
+      "opcionales":[]},
+    "factura":{
+      "requeridos":["FA"],
+      "opcionales":[]}
+  },
+  "SG": {
+    "hosp_cirugia":{ 
+      "requeridos":["ha","epi","hm","lab","anex","ord","soporte fact","aiu","os","prt","prioritaria","verificacion","rx","om","sl","sf","vd","ran"],
+      "opcionales":["so","ne","rx","sl","eco","gcl","hmc"]
+    },
+    "ordenes":{
+      "requeridos":["os"],
+      "opcionales":[]
+    },
+    "escaneados": {
+      "requeridos":[],
+      "opcionales":[]},
+    "factura":{
+      "requeridos":["FA"],
+      "opcionales":[]}
+  },
+  "SH1": {
+    "hosp_cirugia":{ 
+      "requeridos":["ha","epi","hm","eco","lab","anex","enfermeria","ord","soporte fact","aiu","os","prt","prioritaria","verificacion","rx","om","sl","sf","vd"],
+      "opcionales":["so","ne","otro","gcl","hmc"]
+    },
+    "escaneados": {
+      "requeridos":[],
+      "opcionales":[]},
+    "factura":{
+      "requeridos":["FA"],
+      "opcionales":[]}
+  },
+  "SHU": {
+    "hosp_cirugia":{ 
+      "requeridos":["ha","epi","hm","eco","lab","anex","enfermeria","ord","soporte fact","aiu","os","prt","prioritaria","verificacion","rx","om","sl","sf","vd"],
+      "opcionales":["so","ne","otro","gcl","hmc"]
+    },
+    "escaneados": {
+      "requeridos":[],
+      "opcionales":[]},
+    "factura":{
+      "requeridos":["FA"],
+      "opcionales":[]}
+  },
+  "SUP": {
+    "hosp_cirugia":{ 
+      "requeridos":["ha","epi","hm","eco","lab","anex","enfermeria","ord","soporte fact","aiu","os","prt","prioritaria","verificacion","rx","om","sl","sf","vd"],
+      "opcionales":["so","ne","otro","gcl","hmc"]
+    },
+    "escaneados": {
+      "requeridos":[],
+      "opcionales":[]},
+    "factura":{
+      "requeridos":["FA"],
+      "opcionales":[]}
+  }
+}

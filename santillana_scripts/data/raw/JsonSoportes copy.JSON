@@ -1,0 +1,18 @@
+{ 
+  "URGENCIAS": {
+  "descarga_inicial":{ 
+      "requeridos":["fac","hc","epi","ham","oxi","hev","dqx","lab","rx","insumos dqx","hoja gastos", "aplicacion med"],
+      "opcionales":[]
+    },
+    "factura":{
+      "requeridos":["fac"],
+      "opcionales":[]
+    },
+    "escaneos_hospital":{
+    "requeridos":["auto","electro","anexo","formula","consentimiento","documento","validacion","remision","anestesia"],
+    "opcionales":[]}
+    
+  }
+  
+  
+}

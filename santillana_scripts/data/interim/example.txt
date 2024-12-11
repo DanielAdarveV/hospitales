@@ -1,0 +1,1 @@
+aqui vendrian los archivos que corresponden a intermedios o que se generan en la mitad del proceso que se maneja 
