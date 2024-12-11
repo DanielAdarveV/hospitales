@@ -1,0 +1,119 @@
+{ 
+  "URGENCIAS-NORMAL": {
+  "descarga_inicial":{ 
+      "requeridos":["ekg","hc","epi","ham","oxi","hev","dqx","lab","rx","insumos dqx","hoja gastos", "aplicacion med", "auto"],
+      "opcionales":[]
+    },
+    "factura":{
+      "requeridos":["fac"],
+      "opcionales":[]
+    },
+    "escaneos_hospital":{
+    "requeridos":["ekg","auto","electro","anexo","formula","consentimiento","documento","validacion","remision","anestesia","hemod","cardio","traslado","soportes ext","transfusion","insumos rx","gastos urg","gluco","oxigeno","soat","maos","form","consu"],
+    "opcionales":[]}
+    
+  },
+  "URGENCIAS-PREMIUM": {
+    "descarga_inicial":{ 
+        "requeridos":["ekg","hc","epi","ham","oxi","hev","dqx","lab","rx","insumos dqx","hoja gastos", "aplicacion med", "auto"],
+        "opcionales":[]
+      },
+      "factura":{
+        "requeridos":["fac"],
+        "opcionales":[]
+      },
+      "plan_premium":{
+      "requeridos":["ekg","auto","electro","anexo","formula","consentimiento","documento","validacion","remision","anestesia","hemod","cardio","traslado","soportes ext","transfusion","insumos rx","gastos urg","gluco","oxigeno","soat","maos","form","consu"],
+      "opcionales":[]}
+      
+    },
+
+    "HOSPITALZADO-NORMAL": {
+    "descarga_inicial":{ 
+        "requeridos":["ekg","hc","epi","ham","oxi","hev","dqx","lab","rx","insumos dqx","hoja gastos", "aplicacion med", "auto"],
+        "opcionales":[]
+      },
+      "factura":{
+        "requeridos":["fac"],
+        "opcionales":[]
+      },
+      "escaneos_hospital":{
+      "requeridos":["ekg","auto","electro","anexo","formula","consentimiento","documento","validacion","remision","anestesia","hemod","cardio","traslado","soportes ext","transfusion","insumos rx","gastos urg","gluco","oxigeno","soat","maos","form","consu"],
+      "opcionales":[]}
+      
+    },
+
+    "AMBULATORIO-PREMIUM": {
+    "descarga_inicial":{ 
+        "requeridos":["ekg","hc","epi","ham","oxi","hev","dqx","lab","rx","insumos dqx","hoja gastos", "aplicacion med", "auto"],
+        "opcionales":[]
+      },
+      "factura":{
+        "requeridos":["fac"],
+        "opcionales":[]
+      },
+      "plan_premium":{
+      "requeridos":["ekg","auto","electro","anexo","formula","consentimiento","documento","validacion","remision","anestesia","hemod","cardio","traslado","soportes ext","transfusion","insumos rx","gastos urg","gluco","oxigeno","soat","maos","form","consu"],
+      "opcionales":[]}
+      
+    },
+"AMBULATORIO-NORMAL": {
+    "descarga_inicial":{ 
+        "requeridos":["ekg","hc","epi","ham","oxi","hev","dqx","lab","rx","insumos dqx","hoja gastos", "aplicacion med", "auto"],
+        "opcionales":[]
+      },
+      "factura":{
+        "requeridos":["fac"],
+        "opcionales":[]
+      },
+      "escaneos_hospital":{
+      "requeridos":["ekg","auto","electro","anexo","formula","consentimiento","documento","validacion","remision","anestesia","hemod","cardio","traslado","soportes ext","transfusion","insumos rx","gastos urg","gluco","oxigeno","soat","maos","form","consu"],
+      "opcionales":[]}
+      
+    },
+    "HOSPITALZADO-PREMIUM": {
+    "descarga_inicial":{ 
+        "requeridos":["ekg","hc","epi","ham","oxi","hev","dqx","lab","rx","insumos dqx","hoja gastos", "aplicacion med", "auto"],
+        "opcionales":[]
+      },
+      "factura":{
+        "requeridos":["fac"],
+        "opcionales":[]
+      },
+      "plan_premium":{
+      "requeridos":["ekg","auto","electro","anexo","formula","consentimiento","documento","validacion","remision","anestesia","hemod","cardio","traslado","soportes ext","transfusion","insumos rx","gastos urg","gluco","oxigeno","soat","maos","form","consu"],
+      "opcionales":[]}
+      
+    },
+    "TRATAMIENTO-PREMIUM": {
+    "descarga_inicial":{ 
+        "requeridos":["ekg","hc","epi","ham","oxi","hev","dqx","lab","rx","insumos dqx","hoja gastos", "aplicacion med", "auto"],
+        "opcionales":[]
+      },
+      "factura":{
+        "requeridos":["fac"],
+        "opcionales":[]
+      },
+      "plan_premium":{
+      "requeridos":["ekg","auto","electro","anexo","formula","consentimiento","documento","validacion","remision","anestesia","hemod","cardio","traslado","soportes ext","transfusion","insumos rx","gastos urg","gluco","oxigeno","soat","maos","form","consu"],
+      "opcionales":[]}
+      
+    },
+    "TRATAMIENTO-NORMAL": {
+    "descarga_inicial":{ 
+        "requeridos":["ekg","hc","epi","ham","oxi","hev","dqx","lab","rx","insumos dqx","hoja gastos", "aplicacion med", "auto"],
+        "opcionales":[]
+      },
+      "factura":{
+        "requeridos":["fac"],
+        "opcionales":[]
+      },
+      "escaneos_hospital":{
+      "requeridos":["ekg","auto","electro","anexo","formula","consentimiento","documento","validacion","remision","anestesia","hemod","cardio","traslado","soportes ext","transfusion","insumos rx","gastos urg","gluco","oxigeno","soat","maos","form","consu"],
+      "opcionales":[]}
+      
+    }
+    
+  
+  
+}

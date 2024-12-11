@@ -1,0 +1,167 @@
+{   
+    "descarga_inicial":
+        {
+            "tipo_nombrado_ruta" :"automatizado",    
+            "ruta":"C:\\Radicacion\\Data\\$numerofactura$",
+            "nomenclatura":"$soporte$.pdf",
+            "guardado_armado":{
+                "default":"$soporte$_$numerofactura$.pdf",
+                "sura poliza de salud":"$soporte$_$numerofactura$.pdf",
+                "sura":"$soporte$_$numerofactura$.pdf",
+                "nuevaeps":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
+                "savia":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
+                "salud_total":"$nit_entidad$_FA_$numerofactura$_$codificacion_entidad$_$contador$.pdf",
+                "sanitas":"$soporte$_$numerofactura$.pdf",
+                "sura arl":"$soporte$_$numerofactura$.pdf",
+                "colmedica":"$soporte$_$numerofactura$.pdf",
+                "positiva arl":"$soporte$_$numerofactura$.pdf",
+                "colsanitas":"$soporte$_$numerofactura$.pdf",
+                "coomeva":"$soporte$_$numerofactura$.pdf",
+                "axa_colpatria_arl":"$soporte$_$numerofactura$.pdf",
+                "axa_colpatria_soat":"$soporte$_$numerofactura$.pdf",
+                "axa_colpatria_mp":"$soporte$_$numerofactura$.pdf",
+                "aseguradora_solidaria_estudiantil":"$soporte$_$numerofactura$.pdf",
+                "aseguradora_solidaria_soat ":"$soporte$_$numerofactura$.pdf",
+                "seguros_bolivar_soat":"$soporte$_$numerofactura$.pdf",
+                "allianz_allianz_medical":"$soporte$_$numerofactura$.pdf",
+                "colmena_arl":"$soporte$_$numerofactura$.pdf"
+
+
+            }
+                
+        },
+    "escaneos_hospital":
+        {
+            "tipo_nombrado_ruta" :"automatizado",    
+            "ruta":"Y:\\Soportes_Escaneados\\$nombre_entidad_aux$\\$fecha_atencion$_$cedula$",
+            "nomenclatura":"$soporte$.pdf",
+            "guardado_armado":{
+                "default":"$soporte$_$numerofactura$.pdf",
+                "sura poliza de salud":"$soporte$_$numerofactura$.pdf",
+                "sura":"$soporte$_$numerofactura$.pdf",
+                "nuevaeps":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
+                "savia":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
+                "salud_total":"$nit_entidad$_FA_$numerofactura$_$codificacion_entidad$_$contador$.pdf",
+                "sanitas":"$soporte$_$numerofactura$.pdf",
+                "sura arl":"$soporte$_$numerofactura$.pdf",
+                "axa_colpatria_soat":"$soporte$_$numerofactura$.pdf",
+                "colmedica":"$soporte$_$numerofactura$.pdf",
+                "positiva arl":"$soporte$_$numerofactura$.pdf",
+                "colsanitas":"$soporte$_$numerofactura$.pdf",
+                "coomeva":"$soporte$_$numerofactura$.pdf",
+                "axa_colpatria_arl":"$soporte$_$numerofactura$.pdf",
+                "axa_colpatria_mp":"$soporte$_$numerofactura$.pdf",
+                "aseguradora_solidaria_estudiantil":"$soporte$_$numerofactura$.pdf",
+                "aseguradora_solidaria_soat":"$soporte$_$numerofactura$.pdf",
+                "seguros_bolivar_soat":"$soporte$_$numerofactura$.pdf",
+                "allianz_allianz_medical":"$soporte$_$numerofactura$.pdf",
+                "colmena_arl":"$soporte$_$numerofactura$.pdf"
+            }
+                
+        },
+        "plan_premium":
+        {
+            "tipo_nombrado_ruta" :"automatizado",    
+            "ruta":"Y:\\Soportes_Escaneados\\$nombre_entidad_aux$\\$fecha_atencion$_$cedula$ PREMIUM",
+            "nomenclatura":"$soporte$.pdf",
+            "guardado_armado":{
+                "default":"$soporte$_$numerofactura$.pdf",
+                "sura poliza de salud":"$soporte$_$numerofactura$.pdf",
+                "sura":"$soporte$_$numerofactura$.pdf",
+                "nuevaeps":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
+                "savia":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
+                "salud_total":"$nit_entidad$_FA_$numerofactura$_$codificacion_entidad$_$contador$.pdf",
+                "sanitas":"$soporte$_$numerofactura$.pdf",
+                "sura arl":"$soporte$_$numerofactura$.pdf",
+                "axa_colpatria_soat":"$soporte$_$numerofactura$.pdf",
+                "colmedica":"$soporte$_$numerofactura$.pdf",
+                "positiva arl":"$soporte$_$numerofactura$.pdf",
+                "colsanitas":"$soporte$_$numerofactura$.pdf",
+                "coomeva":"$soporte$_$numerofactura$.pdf",
+                "axa_colpatria_arl":"$soporte$_$numerofactura$.pdf",
+                "axa_colpatria_mp":"$soporte$_$numerofactura$.pdf",
+                "aseguradora_solidaria_estudiantil":"$soporte$_$numerofactura$.pdf",
+                "aseguradora_solidaria_soat":"$soporte$_$numerofactura$.pdf",
+                "seguros_bolivar_soat":"$soporte$_$numerofactura$.pdf",
+                "allianz_allianz_medical":"$soporte$_$numerofactura$.pdf",
+                "colmena_arl":"$soporte$_$numerofactura$.pdf"
+            }
+                
+        },
+    "soportes_diagnosticos":
+        {
+            "tipo_nombrado_ruta" :"manual",  
+                "ruta":"Z:\\MOVIMIENTOS CONSULTA EXTERNA\\ESCANEO CONSULTA EXTERNA",
+                "nomenclatura":"$atencion$_$soporte$.pdf",
+                "guardado_armado":{
+                    "sura":"$soporte$_$numerofactura$.pdf",
+                    "nuevaeps":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
+                    "savia":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
+                    "salud_total":"$nit_entidad$_FA_$numerofactura$_$codificacion_entidad$_$contador$.pdf"}
+                
+        },
+    "factura":
+        {
+            "tipo_nombrado_ruta" :"automatizado",    
+            "ruta":"C:\\Radicacion\\Data\\$numerofactura$",
+            "nomenclatura":"FAC$numerofactura$.pdf",
+            "guardado_armado":{
+                "default":"FAC_$numerofactura$.pdf",
+                "sura poliza de salud":"FAC_$numerofactura$.pdf",
+                "sura":"FAC_$numerofactura$.pdf",
+                "nuevaeps":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
+                "savia":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
+                "salud_total":"$nit_entidad$_FA_$numerofactura$_$codificacion_entidad$_$contador$.pdf",
+                "sanitas":"FAC_$numerofactura$.pdf",
+                "sura arl":"FAC_$numerofactura$.pdf",
+                "axa_colpatria_soat":"FAC_$numerofactura$.pdf",
+                "colmedica":"FAC_$numerofactura$.pdf",
+                "positiva arl":"FAC_$numerofactura$.pdf",
+                "colsanitas":"FAC_$numerofactura$.pdf",
+                "coomeva":"FAC_$numerofactura$.pdf",
+                "axa_colpatria_arl":"FAC_$numerofactura$.pdf",
+                "axa_colpatria_mp":"FAC_$numerofactura$.pdf",
+                "aseguradora_solidaria_estudiantil":"$soporte$_$numerofactura$.pdf",
+                "aseguradora_solidaria_soat":"$soporte$_$numerofactura$.pdf",
+                "seguros_bolivar_soat":"$soporte$_$numerofactura$.pdf",
+                "allianz_allianz_medical":"$soporte$_$numerofactura$.pdf",
+                "colmena_arl":"$soporte$_$numerofactura$.pdf"
+            }
+        },
+    "ordenes":
+        {
+            "tipo_nombrado_ruta" :"automatizado",  
+            "ruta":"Z:\\LUCHO\\ODS",
+            "nomenclatura":"$atencion$_ODS.pdf",
+            "guardado_armado":{
+                "sura":"$soporte$_$nit_entidad$_FA$numerofactura$.pdf",
+                "nuevaeps":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
+                "savia":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
+                "salud_total":"$nit_entidad$_FA_$numerofactura$_$codificacion_entidad$_$contador$.pdf"
+            }
+        },
+    "escaneados":
+    {
+        "SE":{
+            "tipo_nombrado_ruta" :"manual",  
+            "ruta":"Z:\\MOVIMIENTOS CONSULTA EXTERNA",
+            "nomenclatura":"$atencion$_$soporte$.pdf",
+            "guardado_armado":{
+                "sura":"$soporte$_$nit_entidad$_FA$numerofactura$.pdf",
+                "nuevaeps":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
+                "savia":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
+                "salud_total":"$nit_entidad$_FA_$numerofactura$_$codificacion_entidad$_$contador$.pdf"}
+            
+            },
+        "VD":{
+            "tipo_nombrado_ruta" :"manual",  
+            "ruta":"Z:\\MOVIMIENTOS CONSULTA EXTERNA\\VERIFICACION DE DERECHOS",
+            "nomenclatura":"$atencion$_$soporte$.pdf",
+            "guardado_armado":{
+                "sura":"$soporte$_$nit_entidad$_FA$numerofactura$.pdf",
+                "nuevaeps":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
+                "savia":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
+                "salud_total":"$nit_entidad$_FA_$numerofactura$_$codificacion_entidad$_$contador$.pdf"}
+            
+        }}
+}
