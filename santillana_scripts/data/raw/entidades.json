@@ -1,0 +1,18 @@
+{
+    "condiciones": [
+      {
+        "contiene": ["SURA", "LIZA DE"],
+        "entidad_aux": "Sura_poliza_de_salud"
+      },
+      {
+        "contiene": ["SURA"],
+        "contiene_lower": ["arl"],
+        "entidad_aux": "Sura Arl"
+      },
+      {
+        "contiene": ["EPS SANITAS"],
+        "entidad_aux": "Sanitas"
+      }
+    ],
+    "default": "default"
+  }
