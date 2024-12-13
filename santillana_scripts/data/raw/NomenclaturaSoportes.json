@@ -6,10 +6,6 @@
             "nomenclatura":"$soporte$.pdf",
             "guardado_armado":{
                 "default":"$soporte$_$numerofactura$.pdf",
-                "sura poliza de salud":"$soporte$_$numerofactura$.pdf",
-                "sura":"$soporte$_$numerofactura$.pdf",
-                "nuevaeps":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
-                "savia":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
                 "salud_total":"$nit_entidad$_FA_$numerofactura$_$codificacion_entidad$_$contador$.pdf"
             }
                 
@@ -21,10 +17,6 @@
             "nomenclatura":"$soporte$.pdf",
             "guardado_armado":{
                 "default":"$soporte$_$numerofactura$.pdf",
-                "sura poliza de salud":"$soporte$_$numerofactura$.pdf",
-                "sura":"$soporte$_$numerofactura$.pdf",
-                "nuevaeps":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
-                "savia":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
                 "salud_total":"$nit_entidad$_FA_$numerofactura$_$codificacion_entidad$_$contador$.pdf"
             }
                 
@@ -36,24 +28,9 @@
             "nomenclatura":"$soporte$.pdf",
             "guardado_armado":{
                 "default":"$soporte$_$numerofactura$.pdf",
-                "sura poliza de salud":"$soporte$_$numerofactura$.pdf",
-                "sura":"$soporte$_$numerofactura$.pdf",
                 "nuevaeps":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
-                "savia":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
                 "salud_total":"$nit_entidad$_FA_$numerofactura$_$codificacion_entidad$_$contador$.pdf"
             }
-                
-        },
-    "soportes_diagnosticos":
-        {
-            "tipo_nombrado_ruta" :"manual",  
-                "ruta":"Z:\\MOVIMIENTOS CONSULTA EXTERNA\\ESCANEO CONSULTA EXTERNA",
-                "nomenclatura":"$atencion$_$soporte$.pdf",
-                "guardado_armado":{
-                    "sura":"$soporte$_$numerofactura$.pdf",
-                    "nuevaeps":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
-                    "savia":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
-                    "salud_total":"$nit_entidad$_FA_$numerofactura$_$codificacion_entidad$_$contador$.pdf"}
                 
         },
     "factura":
@@ -63,47 +40,10 @@
             "nomenclatura":"FAC$numerofactura$.pdf",
             "guardado_armado":{
                 "default":"FAC_$numerofactura$.pdf",
-                "sura poliza de salud":"FAC_$numerofactura$.pdf",
-                "sura":"FAC_$numerofactura$.pdf",
                 "nuevaeps":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
                 "savia":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
                 "salud_total":"$nit_entidad$_FA_$numerofactura$_$codificacion_entidad$_$contador$.pdf"
             }
-        },
-    "ordenes":
-        {
-            "tipo_nombrado_ruta" :"automatizado",  
-            "ruta":"Z:\\LUCHO\\ODS",
-            "nomenclatura":"$atencion$_ODS.pdf",
-            "guardado_armado":{
-                "sura":"$soporte$_$nit_entidad$_FA$numerofactura$.pdf",
-                "nuevaeps":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
-                "savia":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
-                "salud_total":"$nit_entidad$_FA_$numerofactura$_$codificacion_entidad$_$contador$.pdf"
-            }
-        },
-    "escaneados":
-    {
-        "SE":{
-            "tipo_nombrado_ruta" :"manual",  
-            "ruta":"Z:\\MOVIMIENTOS CONSULTA EXTERNA",
-            "nomenclatura":"$atencion$_$soporte$.pdf",
-            "guardado_armado":{
-                "sura":"$soporte$_$nit_entidad$_FA$numerofactura$.pdf",
-                "nuevaeps":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
-                "savia":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
-                "salud_total":"$nit_entidad$_FA_$numerofactura$_$codificacion_entidad$_$contador$.pdf"}
-            
-            },
-        "VD":{
-            "tipo_nombrado_ruta" :"manual",  
-            "ruta":"Z:\\MOVIMIENTOS CONSULTA EXTERNA\\VERIFICACION DE DERECHOS",
-            "nomenclatura":"$atencion$_$soporte$.pdf",
-            "guardado_armado":{
-                "sura":"$soporte$_$nit_entidad$_FA$numerofactura$.pdf",
-                "nuevaeps":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
-                "savia":"$codificacion_entidad$_$nit_entidad$_FA$numerofactura$.pdf",
-                "salud_total":"$nit_entidad$_FA_$numerofactura$_$codificacion_entidad$_$contador$.pdf"}
-            
-        }}
+        }
+
 }

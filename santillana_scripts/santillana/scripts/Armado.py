@@ -151,24 +151,24 @@ class ProcesadorDatos:
         return archivos_encontrados
 
 
-# Ejecución del script
-if __name__ == "__main__":
-    # Instancia de la clase CarpetaArmado
-    carpeta = CarpetaArmado(plan="SS400", entidad="Sanitas")
-    ruta_carpeta = carpeta.crear_carpeta()
+# # Ejecución del script
+# if __name__ == "__main__":
+#     # Instancia de la clase CarpetaArmado
+#     carpeta = CarpetaArmado(plan="SS400", entidad="Sanitas")
+#     ruta_carpeta = carpeta.crear_carpeta()
 
-    # Instancia de la clase ProcesadorDatos
-    procesador = ProcesadorDatos(
-        factura="FAC123456",
-        cedula="CC1234567890",
-        atencion="HOSPITALIZADO",
-        fecha_atencion="2024-08-23",
-        contrato="SS400",
-        carpeta_json="C:\\Users\\Jsons",
-        carpeta_logs="C:\\Users\\Logs",
-        entidad="Sanitas",
-        entidad_aux="Sanitas Aux"
-    )
+#     # Instancia de la clase ProcesadorDatos
+#     procesador = ProcesadorDatos(
+#         factura="FAC123456",
+#         cedula="CC1234567890",
+#         atencion="HOSPITALIZADO",
+#         fecha_atencion="2024-08-23",
+#         contrato="SS400",
+#         carpeta_json="C:\\Users\\Jsons",
+#         carpeta_logs="C:\\Users\\Logs",
+#         entidad="Sanitas",
+#         entidad_aux="Sanitas Aux"
+#     )
 
-    # Procesar datos
-    procesador.procesar_datos(ruta_carpeta)
+#     # Procesar datos
+#     procesador.procesar_datos(ruta_carpeta)

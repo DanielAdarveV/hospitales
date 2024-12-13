@@ -2,17 +2,22 @@
     "condiciones": [
       {
         "contiene": ["SURA", "LIZA DE"],
-        "entidad_aux": "Sura_poliza_de_salud"
+        "nombre_carpeta_armado": "Sura_poliza_de_salud",
+        "nombre_carpeta_escaneos":"Sura_poliza_de_salud",
+        "armado": "default"
       },
       {
         "contiene": ["SURA"],
         "contiene_lower": ["arl"],
-        "entidad_aux": "Sura Arl"
+        "nombre_carpeta_armado": "Sura Arl",
+        "nombre_carpeta_escaneos":"Sura Arl",
+        "armado": "default"
       },
       {
         "contiene": ["EPS SANITAS"],
-        "entidad_aux": "Sanitas"
+        "nombre_carpeta_armado": "Sanitas",
+        "nombre_carpeta_escaneos":"Sanitas",
+        "armado": "default"
       }
-    ],
-    "default": "default"
+    ]
   }
